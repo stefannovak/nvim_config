@@ -1,4 +1,4 @@
-vim.cmd[[colorscheme tokyonight]]
+vim.cmd [[colorscheme tokyonight]]
 
-vim.opt.termguicolors = true -- bufferline
-require("bufferline").setup{} -- bufferline
+vim.opt.termguicolors = true  -- bufferline
+require("bufferline").setup {} -- bufferline
