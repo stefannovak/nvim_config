@@ -62,6 +62,7 @@ require("lazy").setup({
     "nvim-treesitter/nvim-treesitter",
     build = ":TSUpdate",
   },
+  {'akinsho/toggleterm.nvim', version = "*", config = true},
 })
 
 require("lualine").setup()
@@ -134,3 +135,5 @@ vim.defer_fn(function()
     },
   }
 end, 0)
+
+require("toggleterm").setup{}
